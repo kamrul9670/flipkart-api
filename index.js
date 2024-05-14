@@ -25,11 +25,11 @@
        
       app.use(cors(
 
-            // {
-            //   origin : [""] ,
-            //   methods :  ["POST" , "GET" ] ,
-            //   credentials : true
-            // }
+            {
+              origin : ["https://flipcartdupli.netlify.app"] ,
+              methods :  ["POST" , "GET" ] ,
+              credentials : true
+            }
 
       ));
 
